@@ -1,4 +1,4 @@
-## vecka-cmd
+# vecka-cli
 
 Som vecka.nu fast i terminal
 
