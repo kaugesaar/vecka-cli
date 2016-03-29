@@ -9,18 +9,19 @@ npm install vecka-cli -g
 ### exempel
 
 ```
-~ vecka
-Vecka 11
+vecka
 ```
+Outputs the current week.
+
 
 ```
-~ vecka 11
-Mon Mar 14 2016 - Sun Mar 20 2016
+vecka 11
 ```
+vecka followed by a number (week) gives you the date range of that week for current year.
 
-````
+
 
 ```
-~ vecka 2016-03-14
-Vecka 11
+vecka 2016-03-14
 ```
+vecka followed by a date returns week of that date.
