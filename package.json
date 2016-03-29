@@ -1,0 +1,24 @@
+{
+  "name": "vecka-cli",
+  "version": "0.1.0",
+  "description": "Ask terminal what week it is",
+  "main": "lib/vecka.js",
+  "bin": {
+    "vecka": "./bin/vecka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaugesaar/vecka-cli"
+  },
+  "keywords": [
+    "week",
+    "vecka",
+    "datum"
+  ],
+  "author": "Victor Kaugesaar <kaugesaar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaugesaar/vecka-cli/issues"
+  },
+  "homepage": "https://github.com/kaugesaar/vecka-cli"
+}

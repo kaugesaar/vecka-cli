@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+var vecka = require('../lib/vecka.js');
+
+var args = process.argv.slice(2);
+var week;
+var range;
+
+if (!isNaN(Number(args[0]))) {
+  range = vecka.dateRangeForWeek(args[0]);
+} else if(new Date(args[0]).isValid()) {
+  vecka.setDate(new Date(args[0]));
+  week = vecka.week();
+} else {
+  week = vecka.week();
+}
+
+if(range) {
+  console.log(range[0].toDateString() + ' - ' + range[1].toDateString());
+}
+
+if(week) {
+  console.log('Vecka: ' + '\x1b[36m%s\x1b[0m', week);
+}
