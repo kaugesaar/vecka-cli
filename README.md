@@ -8,20 +8,19 @@ npm install vecka-cli -g
 
 ### exempel
 
-``vecka``
-
 ```
-# output: Vecka 11
-```
-
-``vecka 11``
-
-```
-# output: Mon Mar 14 2016 - Sun Mar 20 2016
+~ vecka
+Vecka 11
 ```
 
-``vecka 2016-03-14``
+```
+~ vecka 11
+Mon Mar 14 2016 - Sun Mar 20 2016
+```
+
+````
 
 ```
-# output: Vecka 11
+~ vecka 2016-03-14
+Vecka 11
 ```
