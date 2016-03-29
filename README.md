@@ -6,7 +6,7 @@ Som vecka.nu fast i terminal
 npm install vecka-cli -g
 ```
 
-### exempel
+### usage example
 
 ```
 vecka
