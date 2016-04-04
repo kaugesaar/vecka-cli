@@ -20,5 +20,5 @@ if(range) {
 }
 
 if(week) {
-  console.log('Vecka: ' + '\x1b[36m%s\x1b[0m', week);
+  console.log(week);
 }
